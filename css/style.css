@@ -34,7 +34,7 @@ body {
 
 /* Navbar */
 
-.menu {
+.menu-mobile {
   display: none;
 }
 
@@ -190,6 +190,13 @@ body {
   width: 30%;
 }
 
+.bg-mission {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 30%;
+}
+
 .bg-img {
   position: absolute;
   border-radius: 12px;
@@ -321,6 +328,11 @@ body {
   width: 100%;
   padding-top: 64px;
   margin-bottom: 48px;
+  justify-content: space-between;
+}
+
+.ref-card {
+  width: 32%;
 }
 
 .news-card {
@@ -330,7 +342,6 @@ body {
 }
 
 .news-card2 {
-  margin: 0 24px;
   border: solid 1px #ffffff;
   border-radius: 6px;
   box-shadow: 0.5px 0.5px 2px rgba(1, 1, 3, 0.5);
@@ -400,6 +411,14 @@ body {
 }
 
 /* Footer */
+
+.footer-mobile,
+.socials-mobile,
+.wa-mobile,
+.email-mobile,
+.menu-mobile {
+  display: none;
+}
 
 footer {
   background-color: var(--secondary);
