@@ -1,0 +1,45 @@
+@media (max-width: 576px) {
+  /* Navbar */
+  .navbar {
+    padding: 15px 25px;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .menu {
+    color: black;
+  }
+
+  /* Hero */
+
+  .hero {
+    padding: 0px 25px;
+  }
+
+  .hero .row {
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .hero .row .content {
+    width: 100%;
+  }
+
+  .hero .row .content h1 {
+    font-size: 30px;
+    line-height: 45px;
+    padding: 0;
+  }
+
+  /* Media */
+
+  .news .row {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .news-card {
+  }
+}
